@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hola_mundo():
-    return "Hola mundo"
+    return "Hola mundo Basico"
 
 @app.route("/usuario/registrar")
 def usuario_registrar():
